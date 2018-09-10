@@ -15,7 +15,7 @@ import { ChatHistoryService } from './services/chatHistory.service';
 import { ToastService } from './services/toast.service';
 import { AuthService } from './services/auth.service';
 import { ChatService } from './services/chat.service';
-import { ChangeHeaderService } from './services/change-header.service';
+// import { ChangeHeaderService } from './services/change-header.service';
 import { AuthGuard } from './guards/auth.guard';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -45,7 +45,6 @@ import { HomeComponent } from './components/home/home.component';
   ChatService,
   UserListService,
   AuthGuard,
-  ChangeHeaderService,
   ChatHistoryService
   ],
   bootstrap: [AppComponent]
